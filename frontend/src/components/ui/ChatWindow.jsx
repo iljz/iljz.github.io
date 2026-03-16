@@ -10,7 +10,7 @@ const INITIAL_MESSAGE = {
     "Hi, I'm Isaac's AI assistant. Ask about his background, projects, skills, research, or how to get in touch.",
 };
 
-const DEFAULT_CHAT_API_URL = 'http://127.0.0.1:5001/chat';
+const DEFAULT_CHAT_API_URL = 'http://34.60.156.187/chat';
 
 const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
