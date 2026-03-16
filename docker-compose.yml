@@ -1,0 +1,13 @@
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: rag-backend
+    env_file:
+      - ./backend/.env
+    environment:
+      - HOST_PORT=5001
+    ports:
+      - "5001:5001"
+    restart: unless-stopped
